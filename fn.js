@@ -1,6 +1,8 @@
 //Function declaration
 //Function Epression
 
+const { sum } = require("./problemtwo");
+
 //Function declaration
 //function hello() OR
 //var hello = function ()  //function expression
@@ -14,3 +16,4 @@ hello("Athmika"); //it is used for console.log statements
 
 let message = hello("Athmika");
 console.log(message);
+sum(num1 + num2);
