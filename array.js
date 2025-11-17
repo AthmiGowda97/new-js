@@ -1,7 +1,7 @@
 //Array creation:
 //let array=[];
 //let data=new Array();
-//Array is collection of data
+//Array is collection of dat.
 
 let array = [1, "Athmi"];
 console.log(array);
