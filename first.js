@@ -13,5 +13,5 @@ console.log(country);
 function hello() {
   console.log("This is First Function");
 }
-//To callthe function after once we created the function//
+//To call the function after once we created the function//
 hello();
