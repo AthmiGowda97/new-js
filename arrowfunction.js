@@ -1,4 +1,5 @@
-//example for arrow funbction
+//example for arrow function
+//arrow function Syntax-> ()=>{}
 const abc = () => {
   console.log("function");
   {
@@ -16,3 +17,11 @@ console.log(value);
 const sum = (a, b) => a + b;
 let value2 = sum(5, 10);
 console.log(value2);
+
+setTimeout(() => {
+  console.log("i have a data");
+}, 1000); //this number is given delay output.
+
+setInterval(() => {
+  console.log("i have a data");
+}, 1000); //this is used execute between the intervals.
