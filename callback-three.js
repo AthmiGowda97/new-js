@@ -13,7 +13,7 @@ function arrangeData(callback) {
 }
 function displayData() {
   setTimeout(() => {
-    console.log("i am displaying the  data ");
+    console.log("i am displaying the  data");
   }, 2000);
 }
 fetchData(() => {
@@ -21,3 +21,6 @@ fetchData(() => {
     displayData();
   });
 });
+
+// funcionCallback hell in JavaScript refers to the situation where multiple asynchronous functions are nested inside each other, creating deeply indented code that is hard to read, debug, and maintain.
+//to overcome callback hell we will follow promises.
