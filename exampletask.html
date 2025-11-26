@@ -1,0 +1,65 @@
+<!--most asked question in interview-->
+<html>
+  <head>
+    <title>Layout</title>
+    <style>
+      body {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+        font-family: Arial;
+      }
+      .row {
+        display: flex;
+        gap: 10px;
+      }
+      .big-box {
+        width: 180px;
+        height: 200px;
+        border: 2px solid;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 24px;
+      }
+      .small-box {
+        width: 60px;
+        height: 60px;
+        border: 2px solid;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+      }
+      .rect {
+        width: 150px;
+        height: 40px;
+        gap: 10px;
+
+        border: 2px solid;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="row">
+      <div class="big-box">1</div>
+      <div>
+        <div class="rect">6</div>
+        <div class="rect">7</div>
+        <div class="rect">8</div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="small-box">2</div>
+      <div class="small-box">3</div>
+      <div class="small-box">4</div>
+      <div class="small-box">5</div>
+    </div>
+  </body>
+</html>
